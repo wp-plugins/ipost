@@ -14,17 +14,15 @@ Plugin that makes it super easy to include one or more posts in another post.
 
 Usage:
 
-To include a post in another post or page, just add [ipost id=<id-of-post>] and the post will apper instead of [ipost id=<id-of-post>] 
-
+To include a post in another post or page, just add [ipost id=id-of-post] and the post will apper instead of [ipost id=id-of-post] 
 You can also fetch the post by permalink: [ipost permalink="?p=4"].
-
 You can also set silence to true/false depending if you want debug information to be printed. Defalut is true.(no debug information)
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+1. Upload `ipost` to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Use [ipost id=000] or [ipost permalink='link-to-post'] to include a post in another post or page.
 
 == Frequently asked questions ==
 
