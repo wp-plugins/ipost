@@ -1,0 +1,32 @@
+=== iPost ===
+Contributors: sebastianost
+Donate link: https://flattr.com/thing/1099311/iPost-include-posts-in-posts-
+Tags: include, post
+Requires at least: 3.0
+Tested up to: 3.5.1
+Stable tag: stable
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Plugin that makes it super easy to include one or more posts in another post.
+
+== Description ==
+
+Usage:
+
+To include a post in another post or page, just add [ipost id=<id-of-post>] and the post will apper instead of [ipost id=<id-of-post>] 
+
+You can also fetch the post by permalink: [ipost permalink="?p=4"].
+
+You can also set silence to true/false depending if you want debug information to be printed. Defalut is true.(no debug information)
+
+== Installation ==
+
+1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Place `<?php do_action('plugin_name_hook'); ?>` in your templates
+
+== Frequently asked questions ==
+
+Q: Does the post or page that I want to include need to be published?
+A: No, you can include a post that's just saved draft.
